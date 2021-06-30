@@ -1,0 +1,48 @@
+.material-icons{
+    font-size:6rem;
+    color:green;
+
+}
+.doubts{
+    display: inline-block;
+}
+.detail{
+    margin-top:-2rem;
+    padding-left:1.5rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .material-icons{
+        font-size:3rem;
+        color:green;
+    
+    }
+    .doubts{
+        display: inline-block;
+    }
+    .school-events .container .row .container .col-sm-2{
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+    .about-with-slide .container .row .row .detail{
+        font-size:1.6rem;
+    
+    }
+  }
+.book-icons{
+    width:40%;
+    height:40%;
+}
+.school-events .container .row .container .col-sm-2{
+    border:2px solid lightgray;
+    border-radius:6.8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left:1.6rem;
+    margin-top:2rem;
+}
+.school-events .container .row .container .col-sm-2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}
+
